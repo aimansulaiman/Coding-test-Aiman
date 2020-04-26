@@ -29,7 +29,7 @@ function positiveStart(arrOfStr) {
     return totalSum
 }
 
-function signStart(arrOne) {
+function signStart(arrOfStr) {
     var objOne = dictOfVariableValues;
     var totalSum = 0
     for (var i=1;i<arrOfStr.length;i+=2) {
